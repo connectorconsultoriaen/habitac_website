@@ -11731,9 +11731,68 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	fill: rgba(255, 255, 255, 0.1);
 }
 
-/* index img gerenciamento de obras */
+/* contact form */
 
-.divGO> img{
-	width: 100%;
-	background-size: ;
+@media(min-width: 320px) {
+	#contactform{
+		background-image: url("/images/forms-mobile.png");
+		background-size:50vh 150vh;
+		background-repeat: no-repeat;
+	}
+	#banner01{
+		background-image: url("/images/index-1-slider-1-1920x768.jpg");
+		background-size: 50vh 48vh;
+		background-repeat: no-repeat;
+	}	
+	#banner02{
+		background-image: url("/images/index-1-slider-2-1920x768.jpg");
+		background-size: 50vh 48vh;
+		background-repeat: no-repeat;
+	}	
+	#banner03{
+		background-image: url("/images/index-1-slider-3-1920x768.jpg");
+		background-size: 50vh 48vh;
+		background-repeat: no-repeat;
+	}	
+}
+
+@media(min-width: 768px) {
+	#contactform{
+		background-image: url("/images/forms-tablet.png");
+		background-size: 80vh;
+	}
+	#banner01{
+		background-image: url("/images/index-1-slider-1-1920x768.jpg");
+		background-size: 95vh;
+	}	
+	#banner02{
+		background-image: url("/images/index-1-slider-2-1920x768.jpg");
+		background-size: 95vh;
+	}	
+	#banner03{
+		background-image: url("/images/index-1-slider-3-1920x768.jpg");
+		background-size: 95vh;
+	}		
+}
+
+@media(min-width: 1024px) {
+	#secform{
+		padding-top: 18vh;
+	}
+	#contactform{
+		background-image: url("/images/forms-.png");
+		background-size: cover;
+	}
+	#banner01{
+		background-image: url("/images/index-1-slider-1-1920x768.jpg");
+		background-size: cover;
+	}	
+	#banner02{
+		background-image: url("/images/index-1-slider-2-1920x768.jpg");
+		background-size: cover;
+	}	
+	#banner03{
+		background-image: url("/images/index-1-slider-3-1920x768.jpg");
+		background-size: cover;
+	}
 }
